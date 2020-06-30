@@ -1,0 +1,27 @@
+Breast Cancer Classification
+DataSet:-https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/
+Target Class -2
+1. Maligant=>(0) # its cancerous
+2. Benign=>(1) # tumor is not spreading
+
+input - 30 features
+*Radius
+*Texture
+*Perimeter
+*Area
+*Smoothness
+*Compactness
+*Concavity
+*symmetry
+*fractal dimenions....
+
+#SVM- Suport vector machine
+
+SVM PARAMETERS OPTIMIZATION
+C parameter:Controls trade-off between classifying training points correctly and having a smooth decision boundary
+* small C (loose) makes cost(penalty) of misclassification low (soft margin)
+* Large C(strict) makes cost of misclassification high (hard margin), forcing the model to explain input data stricter and potentially over fit
+
+GAMMA PARAMETER: controls how far the influence of a single training set reaches
+*large gamma:-close reach (closer data points have high weight)
+*small gamma:- far reach(more generalized sol)--> more generalized sol
